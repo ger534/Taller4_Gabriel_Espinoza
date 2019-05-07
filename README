@@ -1,7 +1,12 @@
-/opt/android-ndk-r19c/ndk-build
-adb push ../libs/armeabi-v7a/sumatoria_euler /data/local/tmp
-adb shell /data/local/tmp/sumatoria_euler
+para correr el ejercicio 1:
+  $ /opt/android-ndk-r19c/ndk-build
+  $ adb push ../libs/armeabi-v7a/saxpy /data/local/tmp
+  $ adb shell /data/local/tmp/saxpy
 
-/opt/android-ndk-r19c/ndk-build
-adb push ../libs/armeabi-v7a/saxpy /data/local/tmp
-adb shell /data/local/tmp/saxpy
+para correr el ejercicio 2:
+  $ /opt/android-ndk-r19c/ndk-build
+  $ adb push ../libs/armeabi-v7a/sumatoria_euler /data/local/tmp
+  $ adb shell /data/local/tmp/sumatoria_euler
+
+Nota: estos comandos deben correrse en la respectiva carpeta de cada ejercicio.
+Se parte del hecho de que ya se tiene instalada la herramienta Android NDK.
