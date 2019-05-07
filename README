@@ -1,0 +1,7 @@
+/opt/android-ndk-r19c/ndk-build
+adb push ../libs/armeabi-v7a/sumatoria_euler /data/local/tmp
+adb shell /data/local/tmp/sumatoria_euler
+
+/opt/android-ndk-r19c/ndk-build
+adb push ../libs/armeabi-v7a/saxpy /data/local/tmp
+adb shell /data/local/tmp/saxpy
